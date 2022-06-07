@@ -33,9 +33,9 @@ class MainActivity : AppCompatActivity() {
         intentResult.putExtra("EDAD",b.edAge.text.toString())
         intentResult.putExtra("TEL",b.edTel.text.toString())
         intentResult.putExtra("MAIL",b.edMAil.text.toString())
-        intentResult.putExtra("YEAR", provincia[0])
+        intentResult.putExtra("PROV", provincia[0])
         intentResult.putExtra("GENERO", genero)
-        intentResult.putExtra("CATEGORIA", subj.toString())
+        intentResult.putExtra("SUBJECT", subj.toString())
         startActivity(intentResult)
     }
 

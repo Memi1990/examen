@@ -11,6 +11,18 @@ class FichaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         b = ActivityFichaBinding.inflate(layoutInflater)
         setContentView(b.root)
+        val datos = intent.extras
+
+        val str = """   DATOS
+            Nombre: ${datos?.get("NOMBRE")}
+            Edad: ${datos?.get("EDAD")}
+            Tel.:${datos?.get("TEL")}
+            E-mail:${datos?.get("MAIL")}
+            Provincia: ${datos?.get("PROV")}
+            Género: ${datos?.get("GENERO")}
+            Asignaturas: ${datos?.get("SUBJECT")}
+        """.trimIndent()
+        b.tvData.text = str
         b.btnBack.setOnClickListener {
             onBackPressed()
         }
