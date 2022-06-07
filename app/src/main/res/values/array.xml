@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="provincia">
+        <item>Albacete</item>
+        <item>Ciudad Real</item>
+        <item>Cuenca</item>
+        <item>Guadalajara</item>
+        <item>Toledo</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ficha de Inscripción</string>
+    <string name="name">Nombre Completo</string>
+    <string name="age">Edad</string>
+    <string name="h">Hombre</string>
+    <string name="m">Mujer</string>
+    <string name="ns">Prefiero no decirlo</string>
+    <string name="mail">Introduce tu email</string>
+    <string name="tel">Introduce tu teléfono</string>
+    <string name="Subject">Indica un máximo de 3 asignaturas</string>
+    <string name="prov">Indica tu provincia</string>
+    <string name="save">GUARDAR</string>
+    <string name="hint">Escribe aquí</string>
+    <string name="latin">Latín</string>
+    <string name="Dib">Dibujo</string>
+    <string name="Tec">Tecnología</string>
+    <string name="et">Ética</string>
+    <string name="fran">Francés</string>
+    <string name="vol">Volumen</string>
+    <string name="todo">TODO</string>
+    <string name="back">VOLVER</string>
+</resources>
